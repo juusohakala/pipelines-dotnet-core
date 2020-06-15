@@ -24,8 +24,7 @@ steps:
   inputs:
     version: '3.0.x'
     packageType: runtime
-
-    - task: DotNetCoreCLI@2
+- task: DotNetCoreCLI@2
   displayName: Build
   inputs:
     command: build
